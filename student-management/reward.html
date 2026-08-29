@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EduStudent - Thưởng</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+
+            <div class="logo-icon">
+                🎓
+            </div>
+
+            <div class="logo-text">
+
+                <strong>EduStudent</strong>
+
+                <span>
+                    Quản lý học sinh
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <nav class="nav">
+
+            <a href="index.html">
+                Trang chủ
+            </a>
+
+            <a href="tuition.html">
+                Đóng học phí
+            </a>
+
+            <a href="reward.html" class="active">
+                Thưởng
+            </a>
+
+            <a href="login.html">
+                Đăng nhập
+            </a>
+
+            <a href="register.html"
+               class="register-btn">
+                Đăng ký
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-banner">
+
+        <div class="container">
+
+            <span>EDUSTUDENT</span>
+
+            <h1>
+                Điểm thưởng
+            </h1>
+
+            <p>
+                Theo dõi thành tích và điểm thưởng
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="page-content">
+
+        <div class="container">
+
+
+            <div class="content-card">
+
+                <div class="card-heading">
+
+                    <h2>
+                        Tra cứu điểm thưởng
+                    </h2>
+
+                    <p>
+                        Nhập mã học sinh để xem thành tích.
+                    </p>
+
+                </div>
+
+
+                <form id="rewardForm"
+                      class="search-form">
+
+                    <label>
+                        Mã học sinh
+                    </label>
+
+
+                    <div class="input-row">
+
+                        <input
+                            type="text"
+                            id="rewardStudentCode"
+                            placeholder="Ví dụ: HS001"
+                            required
+                        >
+
+
+                        <button
+                            type="submit"
+                            class="primary-btn">
+
+                            Tra cứu
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+                <div id="rewardResult"
+                     class="reward-result">
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">
+                            🏆
+                        </div>
+
+                        <h3>
+                            Chưa có thông tin
+                        </h3>
+
+                        <p>
+                            Vui lòng nhập mã học sinh để tra cứu.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="reward-info">
+
+                <div>
+
+                    <div class="reward-icon">
+                        ⭐
+                    </div>
+
+                    <h3>
+                        Điểm thưởng
+                    </h3>
+
+                    <p>
+                        Điểm thưởng sẽ được cập nhật
+                        dựa trên thành tích của học sinh.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <div class="reward-icon">
+                        📎
+                    </div>
+
+                    <h3>
+                        Minh chứng
+                    </h3>
+
+                    <p>
+                        Mỗi thành tích có thể được đính kèm
+                        hình ảnh hoặc tài liệu minh chứng.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <strong>
+                🎓 EduStudent
+            </strong>
+
+            <p>
+                Hệ thống quản lý học sinh
+            </p>
+
+        </div>
+
+        <p>
+            © 2026 EduStudent
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EduStudent - Đăng nhập</title>
+
+    <link rel="stylesheet"
+          href="index.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+    <div class="container navbar">
+
+        <a href="index.html"
+           class="logo">
+
+            <div class="logo-icon">
+                🎓
+            </div>
+
+            <div class="logo-text">
+
+                <strong>
+                    EduStudent
+                </strong>
+
+                <span>
+                    Quản lý học sinh
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <nav class="nav">
+
+            <a href="index.html">
+                Trang chủ
+            </a>
+
+            <a href="tuition.html">
+                Đóng học phí
+            </a>
+
+            <a href="reward.html">
+                Thưởng
+            </a>
+
+            <a href="login.html"
+               class="active">
+                Đăng nhập
+            </a>
+
+            <a href="register.html"
+               class="register-btn">
+                Đăng ký
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="auth-page">
+
+        <div class="auth-card">
+
+            <div class="auth-icon">
+                🎓
+            </div>
+
+            <h1>
+                Đăng nhập
+            </h1>
+
+            <p>
+                Đăng nhập vào tài khoản của bạn
+            </p>
+
+
+            <form id="loginForm">
+
+                <label>
+                    Tên đăng nhập
+                </label>
+
+                <input
+                    type="text"
+                    id="loginUsername"
+                    placeholder="Nhập tên đăng nhập"
+                    required
+                >
+
+
+                <label>
+                    Mật khẩu
+                </label>
+
+                <input
+                    type="password"
+                    id="loginPassword"
+                    placeholder="Nhập mật khẩu"
+                    required
+                >
+
+
+                <div class="form-options">
+
+                    <label class="remember">
+
+                        <input type="checkbox">
+
+                        Ghi nhớ đăng nhập
+
+                    </label>
+
+
+                    <a href="#">
+                        Quên mật khẩu?
+                    </a>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="primary-btn full-btn">
+
+                    Đăng nhập
+
+                </button>
+
+
+                <div id="loginMessage"></div>
+
+            </form>
+
+
+            <div class="auth-footer">
+
+                Chưa có tài khoản?
+
+                <a href="register.html">
+                    Đăng ký ngay
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <strong>
+                🎓 EduStudent
+            </strong>
+
+            <p>
+                Hệ thống quản lý học sinh
+            </p>
+
+        </div>
+
+        <p>
+            © 2026 EduStudent
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
